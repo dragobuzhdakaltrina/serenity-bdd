@@ -23,4 +23,10 @@ public class LoginPage extends PageObject {
 
     @FindBy(css = "[value=\"Log In\"]")
     WebElementFacade loginButton;
+
+        @FindBy(css = "[href=\"/login\"]")
+    WebElementFacade emailInputt;
+
+
+
 }
